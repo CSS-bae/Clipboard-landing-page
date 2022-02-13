@@ -96,3 +96,33 @@ small{
     width: 65%;
 }
 
+@media (max-width: 765px){
+    header{
+        background: url(./images/bg-header-mobile.png);
+        background-size: cover;
+        padding: 40px 10px;
+    }
+
+    .heading1{
+        width: 100%;
+    }
+    
+    .heading2{
+        width: 100%;
+        
+    }
+
+    .two{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .two .features div{
+        width: 76%;
+        margin: 60px 12% auto;
+        text-align: center;
+    }
+}
+
